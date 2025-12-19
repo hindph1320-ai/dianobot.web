@@ -1,15 +1,128 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>DianoBot</title>
-</head>
-<body style="text-align:center;margin-top:100px;font-family:sans-serif;">
-  <h1>🤖 DianoBot</h1>
-  <p>موقع بوت ديسكورد الرسمي</p>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <a href="https://discord.com/oauth2/authorize?client_id=CLIENT_ID&permissions=8&scope=bot%20applications.commands">
-    <button style="padding:10px 20px;font-size:16px;">Invite Bot</button>
-  </a>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f172a;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 60px;
+    }
+
+    header h2 {
+      color: #5865f2;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero span {
+      color: #5865f2;
+    }
+
+    .hero p {
+      opacity: 0.8;
+      max-width: 500px;
+      margin-bottom: 40px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 30px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .invite {
+      background-color: #5865f2;
+      color: white;
+    }
+
+    .invite:hover {
+      background-color: #4752c4;
+    }
+
+    .support {
+      border: 2px solid #5865f2;
+      color: white;
+    }
+
+    .support:hover {
+      background-color: #5865f2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.5;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>DianoBot</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Commands</a>
+    <a href="#">Support</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>The Best Discord Bot <br><span>DianoBot</span></h1>
+  <p>
+    DianoBot is a powerful Discord bot that helps you manage,
+    moderate and enhance your server easily.
+  </p>
+
+  <div class="buttons">
+    <a class="invite" href="https://discord.com/oauth2/authorize?client_id=CLIENT_ID&permissions=8&scope=bot%20applications.commands">
+      Invite Bot
+    </a>
+    <a class="support" href="#">
+      Support Server
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2025 DianoBot. All rights reserved.
+</footer>
+
 </body>
 </html>
